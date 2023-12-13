@@ -1,0 +1,60 @@
+/* Write your CSS code here. */
+.app {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.feedback-card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.card-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.emoji-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.emoji {
+  height: 45px;
+  width: 45px;
+}
+
+.emoji-type {
+  font-size: 22px;
+  color: #1e293b;
+}
+
+.customer-feedback-card {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.love-img {
+  height: 55px;
+  width: 55px;
+}
+
+.customer-feedback {
+  font-size: 23px;
+  color: #1e293b;
+}
